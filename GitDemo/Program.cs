@@ -15,5 +15,20 @@
         {
 
         }
+
+        static void SecondMethod()
+        {
+
+        }
+
+        static void ThirdMethod()
+        {
+
+        }
+
+        static void FourthMethod()
+        {
+
+        }
     }
 }

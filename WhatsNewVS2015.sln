@@ -39,8 +39,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-DebuggingAndTesting", "6-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugDemo", "DebugDemo\DebugDemo.csproj", "{F3EDD6C5-9446-4C8D-A9D7-9BC4322851DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-PresentationSlides", "0-PresentationSlides", "{5E3C4347-3DC3-4F42-9CD8-B5533B2F26DD}"
+	ProjectSection(SolutionItems) = preProject
+		What’s New in Visual Studio 2015.pptx = What’s New in Visual Studio 2015.pptx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XamarinDemo\XamarinDemo\XamarinDemo.projitems*{bf54baee-1dc0-4d19-9530-82fa5732cbbb}*SharedItemsImports = 4
+		XamarinDemo\XamarinDemo\XamarinDemo.projitems*{29a7a491-c739-4004-ba5c-cf5bd8a17c38}*SharedItemsImports = 4
+		XamarinDemo\XamarinDemo\XamarinDemo.projitems*{1f2b03a9-b6ca-46e7-8857-e9f3ee932c77}*SharedItemsImports = 4
 		XamarinDemo\XamarinDemo\XamarinDemo.projitems*{a9997d0b-d05a-408b-9bfc-3586879c1f8d}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,5 +10,10 @@
         {
 
         }
+
+        static void ThirdMethod()
+        {
+
+        }
     }
 }

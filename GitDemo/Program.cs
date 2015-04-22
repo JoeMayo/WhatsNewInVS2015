@@ -15,5 +15,10 @@
         {
 
         }
+
+        static void FourthMethod()
+        {
+
+        }
     }
 }

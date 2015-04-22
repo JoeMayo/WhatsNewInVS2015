@@ -11,9 +11,9 @@
 
         }
 
-        static void FifthMethod()
+        static string FifthMethod()
         {
-
+            return null;
         }
 
         static void SecondMethod()

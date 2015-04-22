@@ -5,5 +5,10 @@
         static void Main()
         {
         }
+
+        static void SecondMethod()
+        {
+
+        }
     }
 }

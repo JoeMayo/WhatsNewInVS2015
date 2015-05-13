@@ -8,6 +8,18 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <Button x:Name="ReadButton" Content="Read VS Blog" Click="ReadButton_Click" HorizontalAlignment="Right" Height="35" Width="130"/>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Margin="5" VerticalAlignment="Top">
+            <DataTemplate>
+                <StackPanel>
+                    <TextBlock Text="{Binding Title}"/>
+                    <TextBlock Text="{Binding Content}"/>
+                </StackPanel>
+            </DataTemplate>
+        </ListView>
+            
+        </StackPanel>
 
     </Grid>
 </Page>

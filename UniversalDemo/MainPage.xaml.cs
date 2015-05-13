@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Xml.Linq;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -12,6 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Web.Http;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -25,6 +27,11 @@ namespace UniversalDemo
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private async void ReadButton_Click(object sender, RoutedEventArgs e)
+        {
+            string result = await new HttpClient().GetStringAsync(new Uri("http://blogs.msdn.com/b/visualstudio/atom.aspx"));
         }
     }
 }

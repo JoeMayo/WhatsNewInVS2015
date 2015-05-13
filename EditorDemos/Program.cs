@@ -26,10 +26,10 @@ namespace EditorDemos
             int milliseconds = 1000;
             Thread.Sleep(milliseconds);
 
-//            DoSomethingElse(1000, "message");
+            //DoSomethingElse(1000, "message");
         }
 
-        private void DoSomethingElse(int milliseconds, string message)
+        static void DoSomethingElse(int milliseconds, string message)
         {
             Thread.Sleep(1000);
         }

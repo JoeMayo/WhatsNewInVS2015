@@ -4,6 +4,7 @@
     {
         static void Main()
         {
+            FirstMethod();
         }
 
         static void FirstMethod()

@@ -6,6 +6,7 @@
         {
             FirstMethod();
             SecondMethod();
+            ThirdMethod();
         }
 
         static void FirstMethod()

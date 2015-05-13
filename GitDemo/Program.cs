@@ -5,6 +5,7 @@
         static void Main()
         {
             FirstMethod();
+            SecondMethod();
         }
 
         static void FirstMethod()

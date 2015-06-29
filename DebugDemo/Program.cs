@@ -25,11 +25,14 @@ namespace DebugDemo
 
             try
             {
+                List<int> myIntList = new List<int>();
+
                 double allAvg = 0;
 
                 for (int i = 5; i > 0; i--)
                 {
-                    allAvg += Avg(10, i); 
+                    allAvg += Avg(10, i);
+                    myIntList.Add(i);
                 }
 
                 Console.WriteLine($"Sum of Averages: {allAvg}");

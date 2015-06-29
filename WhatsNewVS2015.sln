@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugDemo", "DebugDemo\Debu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-PresentationSlides", "0-PresentationSlides", "{5E3C4347-3DC3-4F42-9CD8-B5533B2F26DD}"
 	ProjectSection(SolutionItems) = preProject
-		What’s New in Visual Studio 2015.pptx = What’s New in Visual Studio 2015.pptx
+		WhatsNewInVS2015.pptx = WhatsNewInVS2015.pptx
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalDemo", "UniversalDemo\UniversalDemo.csproj", "{D9680510-9535-4101-8316-021E34441A01}"
